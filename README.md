@@ -1,6 +1,6 @@
-# nuxt-template
+# liteflix
 
-> Nuxt template with: event-bus, pug, sass
+> Liteflix Test
 
 ## Build Setup
 
@@ -17,6 +17,16 @@ $ npm run start
 
 # generate static project
 $ npm run generate
+```
+
+###### Solve node-sass issue
+``` bash
+$ sudo -s
+$ sudo npm cache verify
+$ sudo rm package-lock.json
+$ sudo rm -rf node_modules
+$ sudo npm install
+$ sudo npm install node-sass
 ```
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
