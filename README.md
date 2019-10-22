@@ -1,7 +1,3 @@
-# liteflix
-
-> Liteflix Test
-
 ## Build Setup
 
 ``` bash
